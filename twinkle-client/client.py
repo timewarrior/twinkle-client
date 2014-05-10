@@ -4,7 +4,7 @@ import platform
 import subprocess
 
 from twisted.internet import reactor
-from autobahn.websocket import WebSocketClientFactory, WebSocketClientProtocol, connectWS
+from autobahn.twisted.websocket import WebSocketClientFactory, WebSocketClientProtocol, connectWS
 
 STAR_REQUEST_TIMEOUT_IN_SECONDS = 3
 DEFAULT_URL = "ws://localhost:9000"
